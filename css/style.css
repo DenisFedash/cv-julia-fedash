@@ -28,6 +28,7 @@ body {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    background-color: #e5e6e1;
 }
 
 .container-header {
@@ -41,9 +42,13 @@ body {
     padding: 15px 25px 0 25px;
 }
 
-.mini-container {
+.mini-container:not(:last-child) {
     margin-bottom: 30px;
     padding-bottom: 15px;
+}
+
+.bottom{
+    margin-bottom: 227px;
 }
 
 .image-header {
@@ -95,7 +100,7 @@ body {
 .container-main {
     display: flex;
     background-color:#e5e6e1;
-    box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+    
 }
 
 .container-main_first {
@@ -130,7 +135,7 @@ body {
     text-align: justify;
 }
 
-.work-container {
+.work-container:not(:last-child) {
     padding-bottom: 15px;
 }
 
